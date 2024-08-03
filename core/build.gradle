@@ -1,0 +1,12 @@
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
+repositories{
+  mavenLocal()
+
+}
+dependencies {
+  project':mdk'
+  implementation"org.spongepowered:mixin:0.8.5-gasstation_7"
+  implementation"org.apache.xmlgraphics:batik-i18n:1.17"
+  api "com.badlogicgames.gdx:gdx:$gdxVersion"
+}
